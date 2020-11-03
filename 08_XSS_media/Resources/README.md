@@ -4,9 +4,7 @@ In the home page there's only one image with a link. If you click this link you'
 
 ## Steps
 
-* Go to the <a href="http://192.168.56.102/?page=media">media page</a>.
-* Open terminal
-* Run
+* Open your terminal and run
 ```bash
         cd ./Resources
         
@@ -19,5 +17,5 @@ In the home page there's only one image with a link. If you click this link you'
 ```
 
 ## Ways to secure
-The best way to handle this is to validate and sanitize client input.
-Fetch images from their src directory.
+* The best way to handle this is to validate and sanitize client input.
+* Fetch images from their src directory.

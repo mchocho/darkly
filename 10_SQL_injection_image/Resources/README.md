@@ -1,9 +1,8 @@
 # SQL Injection Image
 
-In the image search page the form perfoms a DB search by id value provided by the client.
+In the image search form perfoms a DB search by id value provided by the client without sanitizing input.
 
 ## Steps
-
 * Proceed to <a href="http://192.168.0.108/?page=searchimg">search image page</a>
 * In the search field enter then submit:
 	1 OR 1=1

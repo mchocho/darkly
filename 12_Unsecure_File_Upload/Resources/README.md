@@ -2,12 +2,6 @@
 
 In the file upload page we can upload any file that isn't the requested file type.
 
-## Table of Contents
-
-- [Steps](#Steps)
-- [Vulnerabilities](#Vulnerabilities)
-- [Ways to secure](#Ways to secure)
-
 ## Steps
 * Open terminal
 * Run

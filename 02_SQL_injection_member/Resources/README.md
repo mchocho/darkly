@@ -3,7 +3,7 @@
 The form in the member page has an input value which isn't sanatized when processed by the server.
 
 ## Steps
-* Go to the member page <a href="http://192.168.56.102/?page=member">http://192.168.0.108/?page=member</a>
+* Go to the  <a href="http://192.168.56.102/?page=member">member page</a>
 * In the form input enter
 ```bash
 1 OR 1 = 1

@@ -9,4 +9,4 @@ In the survey page there's a row in the table that references 69. The site admin
 * Select the option you edited.
 
 ## Ways to secure
-Validate and sanatize client input.
+* Validate and sanatize client input.

