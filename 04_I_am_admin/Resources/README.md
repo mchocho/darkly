@@ -1,13 +1,8 @@
 # XSS Cookies
 
 If you inspect the website's cookies with your browser, you'll find a cookie with an encrypted value.
-	
-## Table of Contents
 
-- [Steps](#Steps)
-- [Ways to secure](#Ways to secure)
-
-### Steps
+## Steps
 * Open inspector
 * Open the cookies tab
 
@@ -24,6 +19,6 @@ If you inspect the website's cookies with your browser, you'll find a cookie wit
 * Replace cookie value with b326b5062b2f0e69046810717534cb09
 * Refresh the page
 
-#### Ways to secure
-Always set cookies to http only, this way the client can't change stored information
-You should always encrypt data for your cookies with a JWT or something similar
+## Ways to secure
+* Always set cookies to http only, this way the client can't change stored information
+* You should always encrypt data for your cookies with a JWT or something similar

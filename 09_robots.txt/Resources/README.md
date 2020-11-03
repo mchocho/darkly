@@ -2,13 +2,7 @@
 
 A robots.txt file specifies which parts of a website are accessible to a web crawler. They are not a security mechanism but a way for search engines to index your website.
 
-## Table of Contents
-
-- [Steps](#Steps)
-- [Vulnerabilities](#Vulnerabilities)
-- [Ways to secure](#Ways to secure)
-
-### Steps
+## Steps
 * Open terminal
 * Run
 ```bash
@@ -23,8 +17,8 @@ A robots.txt file specifies which parts of a website are accessible to a web cra
 	root      [username]
 	dragon    [password]
 
-#### Vulnerabilities
+## Vulnerabilities
 An attacker can use a robot.txt file to navigate your website and see sections of your server.
 
-##### Ways to secure
+## Ways to secure
 It's best not to declare private directories in robots.txt file since most crawlers will ignore the file and scan the entire directory.

@@ -2,13 +2,7 @@
 
 In the home page there's only one image with a link. If you click this link you'll be redirected to the media page. The media page url accepts a src parameter that isn't validated by the server.
 
-## Table of Contents
-
-- [Steps](#Steps)
-- [Vulnerabilities](#Vulnerabilities)
-- [Ways to secure](#Ways to secure)
-
-### Steps
+## Steps
 
 * Go to the <a href="http://192.168.56.102/?page=media">media page</a>.
 * Open terminal
@@ -24,6 +18,6 @@ In the home page there's only one image with a link. If you click this link you'
 	curl "http://192.168.56.102/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgnR2FtZSBPdmVyJyk7PC9zY3JpcHQ+" | grep "flag"
 ```
 
-##### Ways to secure
+## Ways to secure
 The best way to handle this is to validate and sanitize client input.
 Fetch images from their src directory.
