@@ -1,4 +1,4 @@
-#Unsecure Referer
+# Unsecure Referer
 
 If you click the link around copyright text in the footer you will be redirected to a page that provides information about albatross seabirds and plays delightful music
 
@@ -10,12 +10,11 @@ If you further inspect the page you'll notice the comments the comments
 ## Table of Contents
 
 - [Steps](#Steps)
-- [Secure](#Ways to secure)
+- [Ways to secure](#Ways to secure)
 
 ### Steps
-Open terminal
-
-Run
+* Open terminal
+* Run
 ```bash
 curl --referer "https://www.nsa.gov/" --user-agent "ft_bornToSec" http://192.168.56.102/\?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c | grep "flag"
 ```

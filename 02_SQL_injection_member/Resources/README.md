@@ -1,11 +1,11 @@
-#SQL Injection Member
+# SQL Injection Member
 
 The form in the member page has an input value which isn't sanatized when processed by the server.
 
 ## Table of Contents
 
 - [Steps](#Steps)
-- [Secure](#Ways to secure)
+- [Ways to secure](#Ways to secure)
 
 ### Steps
 Go to the member page <a href="http://192.168.56.102/?page=member">http://192.168.0.108/?page=member</a>

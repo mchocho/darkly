@@ -10,13 +10,10 @@ In the survey page there's a row in the table that references 69. The site admin
 
 ### Steps
 
-Go to the survey page.
-
-Open the inspector.
-
-Change an option tag value to 69 (this won't work with the first option).
-
-Select the option you edited.
+* Go to the survey page.
+* Open the inspector.
+* Change an option tag value to 69 (this won't work with the first option).
+* Select the option you edited.
 
 #### Ways to secure
 Validate and sanatize client input.

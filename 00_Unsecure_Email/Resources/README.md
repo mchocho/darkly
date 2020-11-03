@@ -1,4 +1,4 @@
-#Unsecure Email
+# Unsecure Email
 
 In the recover password form there's a hidden input with an default value.
 
@@ -6,7 +6,7 @@ In the recover password form there's a hidden input with an default value.
 
 - [Steps](#Steps)
 - [Vulnerablities](#Vulnerabilities)
-- [Secure](#Ways to secure)
+- [Ways to secure](#Ways to secure)
 
 
 ## Steps
@@ -19,10 +19,10 @@ Go to URL
 * Change the email
 * Submit the form
 
-###Vulnerablilities
+### Vulnerablilities
 Send an email with a script asking for a password reset (email spoofing).
 Change the address and get login credentials from the user.
 
-###Ways to secure
+### Ways to secure
 Don't store private information on the client
 Validate all email addresses on the server

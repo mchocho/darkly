@@ -8,9 +8,9 @@ There is a hidden README file in the url .hidden
 - [Ways to secure](#Ways to secure)
 
 ### Steps
-Oper terminal
+* Open the terminal
 
-run
+* run
 ```bash
 	py search.py http://192.168.56.102/ 
 ```

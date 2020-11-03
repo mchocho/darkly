@@ -1,12 +1,12 @@
-#Darkly
+# Darkly
 
 The aim of this project is to introduce you to computer security in the web domain.
 
-##Running the tests
+## Running the tests
 
 You will need a <a href="https://www.virtualbox.org/">VM</a> to run the project ISO.
 
-###List of vulnerabilities
+### List of vulnerabilities
 
 * [Unsecure Email](00_Unsecure_Email)
 * [Brute Force Attack](01_Brute_force)
