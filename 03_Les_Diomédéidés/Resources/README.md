@@ -1,7 +1,6 @@
 # Unsecure Referer
 
-If you click the link around copyright text in the footer you will be redirected to a page that provides information about albatross seabirds and plays delightful music
-<br />
+If you click the link around copyright text in the footer you will be redirected to a page that provides information about albatross seabirds and plays delightful music.<br />
 If you further inspect the page you'll notice the comments:
 * You must be cumming from: "https://www.nsa.gov" to go to the next step
 * Let's use this browser : "ft\_bornToSec". It will help you a lot

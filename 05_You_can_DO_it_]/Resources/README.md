@@ -8,8 +8,8 @@ If you mess around with page parameter in the URL address bar, the website will 
 * Then append 'etc/passwd' to the page query.
 
 ## Vulnerabilities
-* An attacker could include and view a file sensitive information such as auth accounts or credit card information.
+* An attacker could include and view a file containing sensitive information such as auth accounts or credit card information.
 
 ## Ways to secure
-* Always validate and sanatize client input
+* Always validate and sanatize client input.
 * Never include files directly using client input, use prepared procedures instead.
