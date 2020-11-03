@@ -1,10 +1,9 @@
 # Unsecure File Upload
 
-In the file upload page we can upload any file that isn't the requested file type.
+In the file upload page we can upload any file even if it isn't of the requested file type.
 
 ## Steps
-* Open terminal
-* Run
+* Open your terminal and run:
 ```bash
 	py uploadFile.py http://192.168.56.102/index.php\?page=upload# 
 ```

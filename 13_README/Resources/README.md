@@ -1,15 +1,8 @@
 # Unsecure File Upload
 There is a hidden README file in the url .hidden
 
-## Table of Contents
-
-- [Steps](#Steps)
-- [Vulnerabilities](#Vulnerabilities)
-- [Ways to secure](#Ways to secure)
-
 ## Steps
-* Open the terminal
-* run
+* Open your terminal and run:
 ```bash
 	py search.py http://192.168.56.102/ 
 ```
